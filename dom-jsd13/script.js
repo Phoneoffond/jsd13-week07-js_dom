@@ -1,0 +1,21 @@
+// Write your demo code here, section by section.
+// The HTML file has matching ids/classes for each topic:
+//
+// 1. Selecting Elements   -> #main-title, .submit-btn, .task
+console.log(document.getElementById('main-title'));
+console.log(document.getElementsByClassName('submit-btn'));
+console.log(document.getElementsByClassName('task'));
+// 2. Modifying Content    -> .label, #msg, #card
+console.log(document.getElementsByClassName('label')[0].textContent);
+const newText = document.getElementsByClassName('label')[0];
+newText.textContent = "Rename";
+console.log(document.getElementById('msg').textContent);
+const newMsg = document.getElementById('msg');
+newMsg.textContent = "New message";
+console.log(document.getElementById('card').innerHTML);
+const newCard = document.getElementById('card');
+newCard.innerHTML = "<img src='https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg'>";
+// 3. classList            -> #themeBtn, .card
+// 4. Create & Remove      -> #addTaskBtn, #resetTasksBtn, #tasks
+// 5. Events               -> #click-me, #list, #signupForm, #email, .error
+// 6. Pokémon Card Fetcher -> #fetchBtn, #resetBtn, #gallery
