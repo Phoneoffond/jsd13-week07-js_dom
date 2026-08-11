@@ -3,58 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Clicker</title>
-
+    <title>Clicker Game</title>
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sekuya&display=swap');
-
-    * {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-    }
-    body {
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sekuya&display=swap'); 
+   body {
       color: white;
       display: flex;
       padding: 20px;
       background-color: black;
-    }
-
-
-    main {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-      width: 100%;
-    }
-
-    h2{
-      background-color: black;
-      color: white;
-    }
-
-    @media (max-width: 1000px) {
-      #main {
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      
-    }
+    } 
   </style>
-
+<script src="script.js"></script> 
 </head>
 <body>
- 
-  <main >
-    <div><h2>Cookie Clicker</h2></div>
-    <div id="cookie-container">
-      <img src="https://www.crackingmedia.com/images/stories/half-eaten-cookie-200px.png" alt="Cookie" id="cookie">
-      <p>Cookies: <span id="cookie-count">0</span></p>  
-    </div>
-    <button id="cookie-button">Click Me!</button>
-    
-  </main>
-    
+  <main>
+
+    <div class="head">
+    <h1 id="h1" class="">Clicker Game</h1>
+  </div>
+      <p id="score" class="counter-value">0</p> 
+      <img id="poptan1" src="https://www.crackingmedia.com/images/stories/half-eaten-cookie-200px.png">
+      <h2 id="h2">JSD13 Week7</h2>
+      <h4>by 41_Fon</h4>
+</main>
 </body>
 </html>
